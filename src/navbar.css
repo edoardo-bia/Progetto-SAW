@@ -1,0 +1,40 @@
+#container_nav{
+    position: fixed;
+    list-style-type: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+li{
+    display: inline;
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+    margin: 40px;
+}
+
+
+a:hover{
+    color: firebrick;
+}
+
+
+
+img{
+    transform: scaleX(-1);
+    height: 100px;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+}
