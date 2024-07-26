@@ -1,0 +1,38 @@
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0.14;
+    margin-top: -300px;
+    position: relative;
+    animation: slideInImg 2s forwards;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Arial Black', Times, serif;
+    font-size: 44px;
+    position: absolute;
+    animation: slideInTitle 3s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes slideInImg {
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes slideInTitle {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

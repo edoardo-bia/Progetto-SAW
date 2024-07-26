@@ -13,7 +13,7 @@ function Navbar(){
         <div>
         <ul id="icon_nav">
                 <li onClick={() => handleClick('theme')} style={{cursor: 'pointer'}}> <img src="./src/assets/theme.png" width={30} height={30} alt="Theme icon" /> </li>
-                <li onClick={() => handleClick('login')} style={{cursor: 'pointer'}}> <img src="./src/assets/login.png" width={30} height={30} alt="Theme icon" /> </li>
+                <li onClick={() => handleClick('login')} style={{cursor: 'pointer'}}> <img src="./src/assets/login.png" width={29} height={29} alt="Theme icon" /> </li>
             </ul>
         </div>
         </>
