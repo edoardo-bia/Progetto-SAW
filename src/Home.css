@@ -2,37 +2,66 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    scale: 0.14;
-    margin-top: -300px;
-    position: relative;
+    flex-wrap: wrap;
     animation: slideInImg 2s forwards;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 100px;
-    font-family: 'Arial Black', Times, serif;
-    font-size: 44px;
-    position: absolute;
-    animation: slideInTitle 3s forwards;
-    animation-delay: 1s;
+.profile-img {
+    padding-top: 40px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
 }
 
-@keyframes slideInImg {
-  0% {
-    left: -150%;
-  }
-  100% {
-    left: 0%;
-  }
+.content {
+    text-align: center;
+    margin-top: 0px;
+}
+
+h1 {
+    padding-top: 50px;
+    border-top: 50px;
+    font-family: 'Arial Black', Times, serif;
+    font-size: 2em;
+
+    animation: slideInTitle 3s forwards;
+}
+
+p {
+    width: 600px;
+    border: 2px solid #2d2b48;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    animation: slideInP 3.2s forwards;
 }
 
 @keyframes slideInTitle {
-  0% {
-    left: -100%;
+    from {
+      transform: translateX(-500%);
+    }
+    to {
+      transform: translateX(0%);
+    }
   }
-  100% {
-    left: 50%;
-    transform: translateX(-50%);
-  }
+
+@keyframes slideInImg {
+    from {
+      transform: translateX(-150%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}
+
+@keyframes slideInP {
+    from {
+      transform: translateX(+180%);
+    }
+    to {
+      transform: translateX(0%);
+    }
 }
