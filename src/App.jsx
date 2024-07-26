@@ -2,6 +2,7 @@
 import './App.css'
 import Navbar from "./Navbar.jsx"
 import Home from "./Home.jsx"
+import Project from './Project.jsx'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -14,7 +15,9 @@ function App() {
         <div className='home'>
           <Home></Home>
         </div>
-        
+        <div className='proj'>
+          <Project></Project>
+        </div>
     </>
   )
 }

@@ -15,14 +15,15 @@ body, html{
 
 .home{
     top: 60px;
-    height: 600px;
+    height: 1000px;
     width: 100%;
     flex-direction: column;
 
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    border-bottom: 5px solid #0c162d;;
 }
 
 .nav{
@@ -32,4 +33,12 @@ body, html{
   z-index: 1;
   background-color: #fff7df;
   border-bottom: 1px solid #0c162d;
+}
+
+.proj {
+  margin-top: 90px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
