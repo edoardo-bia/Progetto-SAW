@@ -1,3 +1,20 @@
-.title {
-    color: rgb(30, 30, 66);
+.cards {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-cards, .bottom-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.top-cards {
+    gap: 16px;
+}
+
+.bottom-cards {
+    gap: 16px;
 }
