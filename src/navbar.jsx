@@ -19,7 +19,7 @@ function Navbar() {
             <ul id="link_nav">
                 <li><a href="#Home" onClick={() => handleScroll('home')}>Home</a></li>
                 <li><a href="#Projects" onClick={() => handleScroll('proj')}>Projects</a></li>
-                <li><a href="#Contatti" onClick={() => handleScroll('contacts')}>Contacts</a></li>
+                <li><a href="#Contacts" onClick={() => handleScroll('contacts')}>Contacts</a></li>
             </ul>
         </div>
         <div>
