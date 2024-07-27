@@ -1,13 +1,25 @@
 import "./Navbar.css"
 
-function Navbar(){
+function Navbar() {
+  const handleScroll = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        const offset = 95;
+        const elementPosition = section.getBoundingClientRect().top;
+        window.scrollTo({
+            top: elementPosition - offset,
+            behavior: 'smooth'
+        });
+    }
+  };
+
     return(
         <>
         <div>
             <ul id="link_nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#Home" onClick={() => handleScroll('home')}>Home</a></li>
+                <li><a href="#Projects" onClick={() => handleScroll('proj')}>Projects</a></li>
+                <li><a href="#Contatti" onClick={() => handleScroll('contacts')}>Contacts</a></li>
             </ul>
         </div>
         <div>

@@ -9,13 +9,13 @@ function App() {
 
   return (
     <>
-        <div className="nav">
+        <div id="nav">
           <Navbar></Navbar>
         </div>
-        <div className='home'>
+        <div id='home'>
           <Home></Home>
         </div>
-        <div className='proj'>
+        <div id='proj'>
           <Project></Project>
         </div>
     </>
