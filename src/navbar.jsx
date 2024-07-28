@@ -32,11 +32,14 @@ const [showLogin, setShowLogin] = useState(false);
             </ul>
         </div>
         <div>
-        <ul id="icon_nav">
-                <li onClick={() => handleClick('theme')} style={{cursor: 'pointer'}}> <img src="./src/assets/theme.png" width={30} height={30} alt="Theme icon" /> </li>
-                <li onClick={() => handleLoginClick('login')} style={{cursor: 'pointer'}}> <img src="./src/assets/login.png" width={29} height={29} alt="Theme icon" /> </li>
-                {showLogin && <Form />}
-            </ul>
+          <ul id="icon_nav">
+            <li onClick={() => handleClick('theme')}> <img src="./src/assets/theme.png" width={30} height={30} alt="Theme icon" /> </li>
+            <li onClick={() => handleLoginClick('login')}> <img src="./src/assets/login.png" width={29} height={29} alt="Theme icon" /> </li>
+            {showLogin && 
+              <div id='login_form_container'>
+                <Form />
+              </div>}
+          </ul>
         </div>
         </>
     )
