@@ -23,7 +23,8 @@ body, html{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 5px solid #0c162d;;
+    margin-bottom: 100px;
+    border-bottom: 5px solid #0c162d;
 }
 
 #nav{
@@ -36,11 +37,12 @@ body, html{
 }
 
 #proj {
-  margin-top: 90px;
   flex-direction: column;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 100px;
+  border-bottom: 5px solid #0c162d;
 }
 
 #form {
