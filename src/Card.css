@@ -1,0 +1,23 @@
+.img-card {
+  margin-top: 10px;
+  border-radius: 12%;
+  border: 1px solid black;
+}
+
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1); /* Ingrandisce leggermente la card al passaggio del mouse */
+}

@@ -1,0 +1,63 @@
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    animation: slideInImg 2s forwards;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.edo {
+    border-top: 50px;
+    font-size: 2em;
+    animation: slideInTitle 3s forwards;
+}
+
+.content p {
+    width: 600px;
+    border: 2px solid #2d2b48;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    animation: slideInP 3.2s forwards;
+}
+
+@keyframes slideInTitle {
+    from {
+      transform: translateX(-500%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+@keyframes slideInImg {
+    from {
+      transform: translateX(-150%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}
+
+@keyframes slideInP {
+    from {
+      transform: translateX(+180%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}

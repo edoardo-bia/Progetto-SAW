@@ -1,0 +1,32 @@
+.ul_con {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.li_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.li_con a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_con {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1px;
+}
+
+.li_con span {
+    font-size: 25px;
+    text-align: center;
+}

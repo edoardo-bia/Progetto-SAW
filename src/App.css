@@ -1,42 +1,59 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body, html{
+  height: 100%;   
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root{
+  width: 100%;
+  height: 2150px;
+  background-color: #fff7df;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#nav{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+  background-color: #fff7df;
+  border-bottom: 1px solid #0c162d;
 }
 
-.card {
-  padding: 2em;
+#home{
+    top: 60px;
+    height: 1000px;
+    width: 100%;
+    flex-direction: column;
+
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+    border-bottom: 5px solid #0c162d;
 }
 
-.read-the-docs {
-  color: #888;
+#proj {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+  border-bottom: 5px solid #0c162d;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+#contacts {
+  display: flex;
+  height: 175px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
