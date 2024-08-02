@@ -19,9 +19,7 @@
 
 .edo {
     border-top: 50px;
-    font-family: 'Arial Black', Times, serif;
     font-size: 2em;
-
     animation: slideInTitle 3s forwards;
 }
 
