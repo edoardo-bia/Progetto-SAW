@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Navbar.jsx'
 import Home from "./Home.jsx"
 import Project from './Project.jsx'
+import Contacts from './Contact.jsx'
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div id='proj'>
           <Project></Project>
+        </div>
+        <div id='contacts'>
+          <Contacts></Contacts>
         </div>
     </>
   )

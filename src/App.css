@@ -9,8 +9,17 @@ body, html{
 
 #root{
   width: 100%;
-  height: 2000px;
+  height: 2300px;
   background-color: #fff7df;
+}
+
+#nav{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+  background-color: #fff7df;
+  border-bottom: 1px solid #0c162d;
 }
 
 #home{
@@ -27,25 +36,24 @@ body, html{
     border-bottom: 5px solid #0c162d;
 }
 
-#nav{
-  position: fixed;
-  width: 100%;
-  height: 60px;
-  z-index: 1;
-  background-color: #fff7df;
-  border-bottom: 1px solid #0c162d;
-}
-
 #proj {
   flex-direction: column;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   border-bottom: 5px solid #0c162d;
 }
 
 #form {
   display: flex;
   justify-content: center;
+}
+
+#contacts {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }

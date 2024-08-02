@@ -1,0 +1,21 @@
+.ul_con {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: list-item;
+}
+
+.li_con a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.icon_con {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

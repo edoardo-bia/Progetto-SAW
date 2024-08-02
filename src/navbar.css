@@ -22,7 +22,7 @@
 }
 
 
-li{
+.li_nav{
     display: inline;
     margin: 20px;
     cursor: pointer;
