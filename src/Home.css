@@ -13,12 +13,12 @@
 }
 
 .img_background-home{
-    background-image: url('./src/assets/mac2.png');
+    background-image: url('./src/assets/mac3.png');
     background-size: cover;
     position: relative;
     border-radius: 10px;
-    border: 0.5px solid black;
-    animation: slideInBackground 3.5s forwards;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    animation: slideInBackground 3.2s forwards;
 }
 
 .content-home {
