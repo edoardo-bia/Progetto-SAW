@@ -8,8 +8,8 @@ function Form(){
                     <input type='email' placeholder='Insert e-mail'></input>
                     <input type='password' placeholder='Password'></input>
                     <div className='container-button'>
-                        <button className='button-form'>Log in</button>
-                        <button className='button-form'>Register</button>
+                        <button className='button-log'>Log in</button>
+                        <button className='button-reg'>Register</button>
                     </div>
                 </form>
             </div>            
