@@ -28,7 +28,7 @@
     cursor: pointer;
 }
 
-a{
+.li_nav a {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     text-decoration: none;
@@ -37,7 +37,7 @@ a{
     transition: color 0.3s;
 }
 
-a::after {
+.li_nav a::after {
   content: '';
   position: absolute;
   width: 100%;
