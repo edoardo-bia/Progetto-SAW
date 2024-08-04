@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Form from './form';
-import "./Navbar.css"
+import "./Navbar.css";
 import loginLogo from '../src/assets/login.png';
 import themeLogo from '../src/assets/theme.png';
 
@@ -24,11 +25,18 @@ const [showLogin, setShowLogin] = useState(false);
     setShowLogin(!showLogin);
   }
 
+  const handleHomeClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
     return(
         <>
         <div>
             <ul id="link_nav">
-                <li className='li_nav'><a href="#Home" onClick={() => handleScroll('home')}>Home</a></li>
+                <li className='li_nav'><Link to="/" onClick={handleHomeClick}>Home</Link></li>
                 <li className='li_nav'><a href="#Projects" onClick={() => handleScroll('proj')}>Projects</a></li>
                 <li className='li_nav'><a href="#Contacts" onClick={() => handleScroll('contacts')}>Contacts</a></li>
             </ul>
