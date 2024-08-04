@@ -8,7 +8,7 @@ import ProjectPage from './ProjectPage.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App></App>,
+    element: <App />,
   },
   {
     path: '/project/:projectID',

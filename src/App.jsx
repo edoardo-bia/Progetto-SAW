@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-        <div id="nav">
+        <div>
           <Navbar />
         </div>
         <div id='home'>

@@ -55,7 +55,7 @@ input {
     border-radius: 10%;
 }
 
-button:hover {
+.button-log:hover, .button-reg:hover{
     transform: scale(1.15);
     box-shadow: 0 0 5px rgba(12, 22, 45, 0.5);
 }

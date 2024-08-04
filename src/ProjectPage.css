@@ -1,0 +1,37 @@
+.ProjectPage{
+    top: 60px;
+    min-height: 600px;
+    flex-direction: column; 
+
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #0c162d;
+    background-color: #fff7df;;
+}
+
+.ProjectPage h1 {
+    margin: 20px;
+}
+
+.description_projectPage{
+    width: 660px;
+    margin-bottom: 20px;
+}
+
+.project_files {
+  width: 660px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.project_files button {
+    margin-top: 17px;
+    padding: 2px 10px;
+}
