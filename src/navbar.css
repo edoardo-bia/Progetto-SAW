@@ -63,5 +63,5 @@ a:hover::after {
     position: absolute;
     top: 80px;
     right: 20px;
-    z-index: 2;
+    z-index: 1;
 }
