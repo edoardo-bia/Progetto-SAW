@@ -59,3 +59,28 @@ input {
     transform: scale(1.15);
     box-shadow: 0 0 5px rgba(12, 22, 45, 0.5);
 }
+
+.logout_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logout_form button{
+    align-items: center;
+    color: white;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 22px;
+    border-radius: 10%;
+    margin: 10px;
+    background-color: #0c162d;
+    border: 1px solid #0c162d;
+}
+
+.logout_form button:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 5px rgba(12, 22, 45, 0.5);
+}
