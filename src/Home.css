@@ -1,4 +1,4 @@
-.img {
+.img-home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,37 +12,40 @@
     height: 400px;
 }
 
-.content {
-    text-align: center;
-    margin-top: 0px;
+.img_background-home{
+    background-image: url('./src/assets/mac3.png');
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    animation: slideInBackground 3.2s forwards;
 }
 
-.edo {
-    border-top: 50px;
-    font-size: 2em;
-    animation: slideInTitle 3s forwards;
+.content-home {
+  text-align: left;
+  color: black;
+  z-index: 0.5;
 }
 
-.content p {
+.content-home p {
+  position: relative;
     width: 600px;
-    border: 2px solid #2d2b48;
-    margin-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-top: 45px;
+    padding: 0px 30px;
+    padding-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-
-    animation: slideInP 3.2s forwards;
+    animation: slideInP 4s forwards;
 }
 
-@keyframes slideInTitle {
+@keyframes slideInBackground {
     from {
-      transform: translateX(-500%);
+      transform: translateX(-200%);
     }
     to {
       transform: translateX(0%);
     }
-  }
+}
 
 @keyframes slideInImg {
     from {
@@ -55,7 +58,7 @@
 
 @keyframes slideInP {
     from {
-      transform: translateX(+180%);
+      transform: translateX(+500%);
     }
     to {
       transform: translateX(0%);

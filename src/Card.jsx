@@ -1,12 +1,12 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ title, content, img, alt, onClick }) => {
+const Card = ({ title, content, img, alt }) => {
   return (
-    <div className="card" onClick={onClick}>
+    <div className="card">
       <h3>{title}</h3>
       <p>{content}</p>
-      <img className='img-card' src={img} alt={alt} width="200" height="180"></img>
+      <img className='img_card' src={img} alt={alt} width="200" height="180"></img>
 
     </div>
   );

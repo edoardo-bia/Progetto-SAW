@@ -10,6 +10,7 @@
     
     background-color: #ddd;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
 }
 
 form {
@@ -17,18 +18,6 @@ form {
     display: flex;
     margin-top: 20px;
     flex-direction: column;
-}
-
-
-.button-form {
-    padding: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10%;
-}
-
-button:hover {
-    transform: scale(1.10);
 }
 
 input {
@@ -42,4 +31,31 @@ input {
     justify-content: space-evenly;
     padding-top: 5px;
     padding-bottom: 15px;
+}
+
+
+.button-log {
+    color: #0c162d;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #0c162d;
+}
+
+.button-reg{
+    color: white;
+    background-color: #0c162d;
+    border: 1px solid #0c162d;
+}
+
+.button-log, .button-reg {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 22px;
+    border-radius: 10%;
+}
+
+.button-log:hover, .button-reg:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 5px rgba(12, 22, 45, 0.5);
 }
