@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectPage.css'
-import Navbar from './Navbar';
-import CodeFiles from './CodeFiles.jsx'
+import Navbar from '../home/Navbar.jsx';
+import CodeFiles from './CodeFiles'
 
 function ProjectPage({pname, nfiles}) {
 

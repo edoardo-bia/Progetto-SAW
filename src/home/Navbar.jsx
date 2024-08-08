@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Form from './form';
 import "./Navbar.css";
-import loginLogo from '../src/assets/login.png';
-import themeLogo from '../src/assets/theme.png';
+import loginLogo from '../assets/login.png';
+import themeLogo from '../assets/theme.png';
 
 function Navbar() {
   

@@ -1,11 +1,9 @@
 import React from 'react';
 import './Project.css'
-import Card from './Card';
+import Card from '../project/Card.jsx';
 import { Link } from 'react-router-dom';
 
 function Project(){
-
-    //const handleCardClick = (cardTitle) => {};
 
     return(
         <>

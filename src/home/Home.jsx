@@ -4,7 +4,7 @@ function Home(){
     return(
         <>
             <div className='img-home'>
-                <img src="./image.jpg" alt="Me" style={{borderRadius:'50%'}} className='profile-img'/>
+                <img src="./src/assets/me.jpg" alt="Me" style={{borderRadius:'50%'}} className='profile-img'/>
             </div>
             <div className='img_background-home'>
             <div className='content-home'>       

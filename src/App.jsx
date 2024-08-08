@@ -1,9 +1,8 @@
 import './App.css'
-import Navbar from './Navbar.jsx'
-import Home from "./Home.jsx"
-import Project from './Project.jsx'
-import Contacts from './Contact.jsx'
-import Form from './form.jsx'
+import Navbar from './home/Navbar'
+import Home from "./home/Home.jsx"
+import Project from './home/Project'
+import Contacts from './home/Contact.jsx'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
