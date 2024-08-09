@@ -3,6 +3,7 @@ import Navbar from './home/Navbar'
 import Home from "./home/Home.jsx"
 import Project from './home/Project'
 import Contacts from './home/Contact.jsx'
+import NotificationComponent from "./notification/NotificationComponent.jsx";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
